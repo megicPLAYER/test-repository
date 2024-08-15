@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+}
+
+body{
+    background-color: #F8FAFC;
+}
+
+/* navigation */
+.navi {
+    position: fixed;
+    width: 1438px;
+    height: 90px;
+    border: solid black 2px;
+    background-color: white;
+}
+
+.navi_Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+    width: 219px;
+    height: 89px;
+}
+
+.nLogo h3 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.52px;
+    margin-left: 15px;
+}
+
+.nItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nItems div {
+    padding-right: 20px;
+}
+
+.mBtn button {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* /navigation */
+
+/* menu */
+.center {
+    display: flex;
+}
+
+.left_menu {
+    padding-top: 46px;
+    width: 250px;
+    height: 698px;
+    background-color: white;
+    border: solid black 2px;
+    margin-top: 46px;
+}
+
+
+.left_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.wrappers {
+    display: flex;
+    margin-top: 10px;
+}
+
+.left-buttons div{
+   display: flex;
+   align-items: center;
+}
+
+.left_btn button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding-left: 52px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.left_btn div{
+    display: flex;
+}
+
+.left_btn button:hover {
+    color: blue;
+}
+
+.selcted select {
+    width: 76px;
+    height: 38px;
+    border-radius: 8px;
+    padding: 7px, 10px, 7px, 10px;
+}
+
+.mein_items div {
+    padding-right: 20px;
+}
+/* /left menu */
+
+/* center-menu */
+.center_menu {
+    width: 1130px;
+    height: 316px;
+    margin: 0px 30px;
+    margin-top: 123px;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-color: white;
+}
+
+.mainItems{
+    margin: 20px;
+    border: solid red 2px;
+}
+
+.center_navi{
+    display: flex;
+}
+
+.center_navi P{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.p{
+   margin-left: 20px; 
+}
+
+.center_information{
+    display: flex;
+    margin-top: 30px;
+}
+
+.center_information p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+.phone_number{
+    margin-left: 218px;
+}
+
+.to_send{
+    margin-left: 185px;
+}
+
+.status{
+    margin-left: 153px;
+}
+
+.information{
+    display: flex;
+}
+/* /center-menu */
+
+/* fotter */
+.fotter{
+    width: 100%;
+    height: 74px;
+    background-color: white;
+    border: solid 2px black;
+}
+
+.end_btn{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    height: 74px;
+    border:  solid black 1px;
+}
+.end_btn button {
+    width: 190px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #FAFCFF;
+    border: none;
+}
+/* /fotter */
